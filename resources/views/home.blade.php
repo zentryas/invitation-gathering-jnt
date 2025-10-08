@@ -51,6 +51,10 @@
 		.fh5co-nav-toggle {
 			display:none;
 		}
+
+		.btn-red{
+			background-color: #e63946;
+		}
 	</style>
 </head>
 <body>
@@ -79,8 +83,9 @@
 								<h1 class="mt-50">Kepada Yth,</h1>
 								<label class="nama-seller">{{ $resData->nama_pemilik_owner }}</label>
 								<h2>Yuk, luangin waktu buat <span class="badge-custom-danger">ketemu langsung dan tukar cerita bareng sesama owner bisnis online J&T!</span> Dapetin inspirasi segar, relasi baru, dan insight berharga yang bisa bantu kamu bawa bisnismu ke level selanjutnya 🚀</h2>
-								<div class="simply-countdown simply-countdown-one"></div><br>
-								<p><a href="#confirm" class="btn btn-default btn-sm">Konfirmasi Kehadiran</a></p>
+								<br><br>
+								<div class="text-center"><div class="text-white">COUNTDOWN</div></div> <br>
+								<div class="simply-countdown simply-countdown-one"></div>
 							</div>
 						</div>
 					</div>
@@ -155,6 +160,10 @@
 					</div>
 					<div class="col-md-3 col-xs-1"></div>
 				</div>
+				<br><br><br><br><br>
+				<div class="text-center animate-box">
+					<p><a href="#confirm" class="btn btn-red text-white btn-sm">Konfirmasi Kehadiran</a></p>
+				</div>
 			</div>
 		</div>
 		
@@ -165,7 +174,7 @@
 				<div class="row animate-box fadeInUp animated-fast">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading"> <br>
 						<h2>Konfirmasi Kehadiran</h2>
-						<p>Jangan lupa ya, mengisi form konfirmasi kehadiran dibawah ini.</p>
+						<p>Ingat ya, mengisi form konfirmasi kehadiran dibawah ini.</p>
 					</div>
 				</div>
 				<div class="row justify-content-center">
